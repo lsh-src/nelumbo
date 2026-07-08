@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="shanghai" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F0E8F0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8F0F0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect fill="url(#shanghai)" width="400" height="300" rx="8"/>
+  <text x="200" y="120" fill="#7BA7A7" font-family="sans-serif" font-size="48" text-anchor="middle">🏙️</text>
+  <text x="200" y="170" fill="#5D8F8F" font-family="sans-serif" font-size="20" text-anchor="middle" font-weight="600">上海碎片</text>
+  <text x="200" y="200" fill="#8A8A8A" font-family="sans-serif" font-size="14" text-anchor="middle">在这座城市里,发现生活的温度</text>
+</svg>

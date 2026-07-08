@@ -1,0 +1,97 @@
+# ============================================================
+# 若菡手记 — Hexo 主配置
+# https://hexo.io/docs/configuration.html
+# ============================================================
+
+# 站点信息
+title: 若菡手记
+subtitle: 记录成长与生活的小天地
+description: 一个关于学习成长、职场心得、旅行生活与运动日常的个人博客
+keywords: 个人博客, 软件测试, 学习成长, 旅行, 运动
+author: 李若菡
+language:
+  - zh-CN
+  - en
+timezone: Asia/Shanghai
+
+# 网址 (部署后修改为实际域名)
+url: https://ruohan-notes.pages.dev
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true
+  trailing_html: true
+
+# 写作设置
+new_post_name: :title.md
+default_layout: post
+auto_spacing: false
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+
+# 代码高亮 (由 Butterfly 主题接管, 此处关闭)
+highlight:
+  enable: false
+  line_number: false
+  auto_detect: false
+  tab_replace: ''
+  wrap: false
+  hljs: false
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+# 目录 & 分类
+default_category: 随笔
+category_map:
+tag_map:
+
+# 分页
+index_generator:
+  path: ''
+  per_page: 8
+  order_by: -date
+archive_generator:
+  per_page: 15
+  yearly: true
+  monthly: true
+  daily: false
+  order_by: -date
+tag_generator:
+  per_page: 10
+category_generator:
+  per_page: 10
+
+# 搜索 (hexo-generator-searchdb 插件配置)
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+
+# Sitemap
+sitemap:
+  path: sitemap.xml
+  rel: false
+
+# 文章截断
+excerpt_separator: <!--more-->
+
+# 主题 (使用 npm 安装的 butterfly)
+theme: butterfly
+
+# 部署 (Cloudflare Pages 通过 Git 集成部署, 不需要 hexo deploy)
+deploy:
+  type: ''
+  repo: ''
